@@ -12,7 +12,7 @@ const contactIcons = [
     },
     {
         icon: faPhone,
-        link: '2347061681517',
+        link: '2347037063912',
         text: '',
         refKey: 'tel:+'
     },
