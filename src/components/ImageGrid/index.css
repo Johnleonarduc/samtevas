@@ -1,0 +1,64 @@
+div.image-grid-wrapper {
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 0 2em 2em 2.5em;
+}
+
+div.image-grid-wrapper .meeting-space {
+    margin-left: 0;
+}
+
+div.image-grid-wrapper .wardrobe {
+    margin-top: 20vmin;
+    margin-left: -20vmin;
+    z-index: 2;
+}
+
+div.image-grid-wrapper .wooden-chair {
+    margin-top: -15vmin;
+    margin-left: -25vmin;
+    z-index: 2;
+}
+
+div.image-grid-wrapper .classroom-desks {
+    margin-left: -45vmin;
+    margin-top: 5vmin;
+}
+
+
+@media screen and (min-width: 768px) {
+    div.image-grid-wrapper {
+        margin-top: -7vmax;
+        margin-bottom: 7vmax;
+    }
+    
+    div.image-grid-wrapper .meeting-space {
+        width: 60vmax !important;
+        height: 40vmax !important;
+        margin-left: 2vmax;
+    }
+    
+    div.image-grid-wrapper .wardrobe {
+        width: 35vmax !important;
+        height: 50vmax !important;
+        margin-top: 20vmax;
+        margin-left: -12vmax;
+    }
+    
+    div.image-grid-wrapper .wooden-chair {
+        width: 35vmax !important;
+        height: 50vmax !important;
+        margin-top: -10vmax;
+        margin-left: -23vmax;
+    }
+    
+    div.image-grid-wrapper .classroom-desks {
+        width: 60vmax !important;
+        height: 40vmax !important;
+        margin-left: -37vmax;
+        margin-top: 10vmax;
+    }
+}

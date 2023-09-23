@@ -1,0 +1,16 @@
+div.about-text{
+    color: #FFFFFF;
+    background: linear-gradient(to bottom, #f89226, #e55f08, #ffb83c,#fe932b, #A83A3B);
+}
+
+div.about-text div.text-content{
+    max-width: 100%;
+    padding: 2em;
+    background-color: #a83a3c9d;
+}
+
+@media screen and (min-width: 768px) {
+    div.about-text div.text-content{
+        padding: 4em;
+    }
+}
