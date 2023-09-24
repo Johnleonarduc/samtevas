@@ -2,13 +2,16 @@ footer {
     background-color: #323232;
     color: #FFFFFF;
     max-width: 100%;
-    /* width: 100%; */
     padding: 2em;
 }
 
 div.contacts a{
     text-decoration: none;
     color: inherit;
+}
+
+div.contacts ul {
+    margin-left: -1.5em;
 }
 
 div.contacts ul li {
@@ -21,6 +24,9 @@ div.contacts strong {
 
 footer p.copyright{
     text-align: center;
+}
+div.rc-number img {
+    width: 100%;
 }
 
 footer p.developers{
