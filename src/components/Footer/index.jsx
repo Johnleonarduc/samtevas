@@ -30,17 +30,17 @@ const Footer = () => {
                     <ul>
                         <strong>Phone:</strong>
                         <li>
-                            <a href="tel:+2347037063912">+2347037063912</a>
+                            <a href="tel:+2347037063912" rel="noopener noreferrer" target="_self">+2347037063912</a>
                         </li>
 
                         <li>
-                            <a href="tel:+2348051668201">+2348051668201</a>
+                            <a href="tel:+2348051668201" rel="noopener noreferrer" target="_self">+2348051668201</a>
                         </li>
                     </ul>
                     <ul>
                         <strong>Email:</strong>
                         <li>
-                            <a href="mailto:samtevas50@gmail.com">samtevas50@gmail.com</a>
+                            <a href="mailto:samtevas50@gmail.com" rel="noopener noreferrer" target="_self">samtevas50@gmail.com</a>
                         </li>
                     </ul>
                     
